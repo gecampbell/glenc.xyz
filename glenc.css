@@ -11,6 +11,9 @@ bottom: 0;
 background: white;
 height: 2vh;
 }
+p {
+line-height: 1.5em;
+}
 ol {
 list-style-type: square;
 list-style-position: outside;
