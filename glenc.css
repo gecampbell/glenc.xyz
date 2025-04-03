@@ -1,9 +1,12 @@
+body {
+}
 header {
 text-align: right;
 border-bottom: 1px gray solid;
 }
 footer {
-position: fixed;
+position: -webkit-sticky;
+position: sticky;
 bottom: 0;
 }
 ol {
