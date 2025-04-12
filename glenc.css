@@ -1,32 +1,17 @@
-body {
-max-width: 44em;
-}
-header {
-text-align: right;
-color: gray;
-}
 body > footer {
-position: sticky;
+position: absolute;
 bottom: 0;
 padding: 1em 0 0 0;
 background: white;
 height: 3em;
+width: 100%;
 }
-h1.home {border-bottom: 1px gray solid;}
-hr {
+h1.home {
+font-size: 6vh;
+letter-spacing: -.2vh;
 }
 p {
 line-height: 1.5em;
-}
-ol {
-list-style-type: square;
-list-style-position: outside;
-margin: 0;
-padding: 0;
-}
-li {
-margin-bottom: 0.5em;
-prefix: "* ";
 }
 a {
 color: gray;
