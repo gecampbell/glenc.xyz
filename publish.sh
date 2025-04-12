@@ -1,7 +1,7 @@
 #!/bin/sh
 
 if [ -f index.html ]; then
-    aws s3 sync . s3://glenc.co \
+    aws s3 sync . s3://glenc.xyz \
         --exclude "*.*" \
         --include "*.html" \
         --include "*.css" \
