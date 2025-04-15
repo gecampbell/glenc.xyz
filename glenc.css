@@ -1,14 +1,16 @@
 body > footer {
-position: absolute;
-bottom: 0;
-padding: 1em 0 0 0;
 background: white;
-height: 3em;
+color: black;
 width: 100%;
+margin-top: 1em;
+border-top: 1px gray dotted;
+font-size: smaller;
+position: sticky;
+bottom: 0;
 }
 h1.home {
-font-size: 6vh;
-letter-spacing: -.2vh;
+font-size: 36pt;
+letter-spacing: -.5pt;
 }
 p {
 line-height: 1.5em;
