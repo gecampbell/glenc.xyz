@@ -4,6 +4,7 @@ if [ -f index.html ]; then
     aws s3 sync . s3://glenc.xyz \
         --exclude "*.*" \
         --include "*.html" \
+	--include "*.jpg" \
         --include "*.css" \
         --delete \
         --acl public-read \
