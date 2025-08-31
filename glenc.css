@@ -25,3 +25,7 @@ a:hover {
 color: navy;
 text-decoration: underline;
 }
+img {
+float:right;
+padding-left:10px;
+}
